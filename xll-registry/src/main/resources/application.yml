@@ -1,0 +1,21 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: eureka-7001
+eureka:
+  instance:
+    prefer-ip-address: true
+    hostname: eureka7001.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      default-zone: http://eureka7001.com:7001/eureka
+
+instance:
+  app:
+    name: xll-registry
+    description: 注册中心服务
+    port: 7001
+    ip: eureka7001.com

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>xll-project-parent</artifactId>
+        <groupId>com.xu.project</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xu.project.service-item</groupId>
+    <artifactId>xll-item</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>xll-item-interface</module>
+        <module>xll-item-service</module>
+    </modules>
+    <dependencies>
+        <!--通用组件依赖-->
+        <dependency>
+            <groupId>com.xu.project.common</groupId>
+            <artifactId>xll-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

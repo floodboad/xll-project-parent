@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xll-common/xll-common.iml" filepath="$PROJECT_DIR$/xll-common/xll-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-gateway/xll-gateway.iml" filepath="$PROJECT_DIR$/xll-gateway/xll-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-item/xll-item.iml" filepath="$PROJECT_DIR$/xll-item/xll-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-item/xll-item-interface/xll-item-interface.iml" filepath="$PROJECT_DIR$/xll-item/xll-item-interface/xll-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-item/xll-item-service/xll-item-service.iml" filepath="$PROJECT_DIR$/xll-item/xll-item-service/xll-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-project-parent.iml" filepath="$PROJECT_DIR$/xll-project-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-registry/xll-registry.iml" filepath="$PROJECT_DIR$/xll-registry/xll-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xll-upload/xll-upload.iml" filepath="$PROJECT_DIR$/xll-upload/xll-upload.iml" />
+    </modules>
+  </component>
+</project>
